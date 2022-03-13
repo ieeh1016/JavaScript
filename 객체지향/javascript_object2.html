@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            변수와 메소드를 객체별로 저장시킴
+            객체는 하나하나의 독립적인 프로그램처럼 독립적으로 사용함
+            목표: 좋은 부품의 로직을 만드는 길이다.
+        */
+        var person = {
+            name : 'egoing', // 객체안에 name이라는 변수를 담았다. 그 변수에 egoing 이라는 이름을 넣었다.
+            introduce : function(){
+            return 'My name is'+this.name; // 객체안에 introduce라는 변수를 담았는데 그 변수가 함수이면 메소드 라고 부른다.
+        }
+        } // 비어있는 객체 생성
+        document.write(per.introduce); // this -> 이 함수가 속해있는 객체를 가리킨다.
+
+    </script>
+</body>
+</html>

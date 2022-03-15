@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Person(){}
+        var p = new Person(); //new를 추가하면 p에는 Person{} 이게 출력되는 이것은 객체이다. 객체의 생성자
+        p1.name='egoing';
+        p1.introduce = function(){
+            return 'My name is '+this.name;
+        }
+        documenet.write(p1.introduce()+"<br />");
+
+        var p2 = new Person();
+        p2.name = 'egoing';
+        p2.introduce = function(){
+            return 'My name is '+this.name;
+        }
+        document.write(p1.introduce()+"<br />");
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        var arr = new Array('a','b','c','d','e');
+        function getRandomValueFromArray(arr){
+            var index = Math.floor(arr.length*Math.random()); //floor=소숫점이 있을때 버리는 "버림" 이다.
+            return arr[index];
+        }
+        console.log(getRandomValueFromArray(arr));
+        */
+
+        Array.prototype.random = function(){
+            var index = Math.floor(this.length*Math.random()); //floor=소숫점이 있을때 버리는 "버림" 이다.
+            return this[index];
+        }
+        var arr = new Array('a','b','c','d','e');
+        console.log(arr.random());
+    </script>
+</body>
+</html>

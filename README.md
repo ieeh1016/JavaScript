@@ -1,3 +1,2 @@
 # JavaScript
-JavaScript 연습
-연습을 시작함
+Flont End 개발자가 되기 위해 Javascript 공부

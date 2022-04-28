@@ -1,5 +1,5 @@
 # JavaScript Practice
-Font End 개발자가 되기 위해 Javascript 공부
+Javascript 공부
 
 학습기간 : 2022.03.07~
 
